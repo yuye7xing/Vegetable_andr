@@ -1,0 +1,38 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+        <string name="login_label_username">帐号</string>  
+    <string name="login_label_password">密码</string>  
+    <string name="login_label_signin">登 录</string>  
+    <string name="login_status_logging_in">登录中...</string>  
+    <string name="login_username_hint">Email或手机号</string>  
+    <string name="login_register_link">没有帐号？ <a href="#" mce_href="#">注册</a></string>  
+    <string name="app_name">Vegetable</string>
+    <string-array name="vegetable_Item">
+        <item>首页</item>
+        <item>订单</item>
+        <item>发现</item>
+        <item>收藏</item>
+        <item>搜索</item>
+        <item>建议</item>
+        <item>注销</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+</resources>

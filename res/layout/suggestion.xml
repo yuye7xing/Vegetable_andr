@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="给点建议，希望软件能日加完善！" />
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+         <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:layout_weight="1"
+        android:text="我想对" />
+		<Spinner
+             android:id="@+id/spinner1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="3" />
+           <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="说：" />
+    </LinearLayout>
+  <EditText
+             android:id="@+id/editText1"
+             android:layout_width="fill_parent"
+             android:layout_height="0dp"
+             android:ems="10"
+             android:layout_weight="6"
+             android:inputType="textMultiLine"
+             android:background="#38B0DE" 
+             android:padding="8dp"
+             android:gravity="top">
+
+             <requestFocus />
+         </EditText>
+
+  <Button
+      android:id="@+id/button1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:text="提交" />
+         
+</LinearLayout>
